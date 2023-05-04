@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #23252c;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.app{
+    text-align: center;
+    background-color: #1a1b21;
+    border-radius: 12px;
+    width: 30%;
+    min-width: 350px;
+    margin: 30px auto;
+}
+
+.header--img{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 100%;
+    min-width: 350px;
+    height: auto;
+}
+
+.header > h2{
+    color:white;
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.header > p {
+    color: goldenrod;
+    font-size: 25px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 15px;
+}
+
+.header > a {
+   text-decoration: none;
+   color: white;
+   margin-top:0;
+   padding-bottom: 25px;
+}
+
+.header--connect{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.header--connect__linkedin{
+    background-color: #5093e2;
+    color: white;
+    margin-left: 12px;
+}
+
+.header--connect__linkedin__icon, .header--connect__email__icon{
+    width: 30px;
+    margin-right: 12px;
+}
+
+.header--connect__email,.header--connect__linkedin{
+    display:flex;
+    align-items: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+.header--connect__email{
+    background-color: white;
+    color: #374151;
+    margin-right: 12px;
+}
+
+.main{
+    text-align: left;
+    padding: 20px;
+    line-height: 1.3;
+}
+
+.footer{
+   background-color:black;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-bottom-right-radius: 12px;
+   border-bottom-left-radius: 12px;
+}
+
+.Footer-Icon{
+    width: 20px;
+    padding: 12px;
+}
+
